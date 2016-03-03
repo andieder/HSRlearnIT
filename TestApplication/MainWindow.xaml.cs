@@ -31,7 +31,12 @@ namespace TestApplication
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Blaaaaa");
-            asdf();
+            
+        }
+
+        public static int testClick(int input)
+        {
+            return input;
         }
     }
 }
