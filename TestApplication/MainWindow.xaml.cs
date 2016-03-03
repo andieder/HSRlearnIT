@@ -23,7 +23,13 @@ namespace TestApplication
         public MainWindow()
         {
             InitializeComponent();
-            CalendarBlackoutDatesCollection();
+
+            int a = 0;
+            if(a == 5)
+            {
+                int b = 3;
+            }
+
             
 
         }
@@ -37,6 +43,17 @@ namespace TestApplication
         public static int testClick(int input)
         {
             return input;
+        }
+
+        private class Banana
+        {
+            private int yellowness;
+
+            public override bool Equals(object obj)
+            {
+                yellowness = 3;
+                return base.Equals(obj);
+            }
         }
     }
 }
