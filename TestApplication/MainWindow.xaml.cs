@@ -23,7 +23,7 @@ namespace TestApplication
         public MainWindow()
         {
             InitializeComponent();
-
+            CalendarBlackoutDatesCollection();
             
 
         }
