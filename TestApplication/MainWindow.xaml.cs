@@ -45,14 +45,13 @@ namespace TestApplication
             return input;
         }
 
-        private class Banana
+        private class AnotherClass
         {
-            private int yellowness;
+            private int _count { get; set; }
 
-            public override bool Equals(object obj)
+            public AnotherClass(int count)
             {
-                yellowness = 3;
-                return base.Equals(obj);
+                _count = count;
             }
         }
     }
