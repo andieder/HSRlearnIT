@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace TestApplication.Tests
 {
+    //some master comment
     [TestClass()]
     public class MainWindowTests
     {
