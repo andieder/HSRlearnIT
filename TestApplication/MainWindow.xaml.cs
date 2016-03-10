@@ -53,6 +53,11 @@ namespace TestApplication
             {
                 _count = count;
             }
+
+            private int bla(int blu)
+            {
+                return 42 + blu;
+            }
         }
     }
 }
